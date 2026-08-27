@@ -1,0 +1,89 @@
+# ============================================================================
+# Python Core & Byte-code
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ============================================================================
+# Virtual Environments & Packages
+# ============================================================================
+# General venv directories
+.venv/
+venv/
+ENV/
+env/
+
+# Pipenv & Poetry (Keep the lock files, ignore local configurations)
+.pdm-python
+.python-version
+pypoetry/
+
+# Anaconda / Conda environments
+.conda/
+conda-bld/
+
+# ============================================================================
+# Distribution & Packaging (Build artifacts)
+# ============================================================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================================
+# Testing, Coverage, & Code Quality
+# ============================================================================
+.htmlcov/
+.tox/
+.nosetests/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.xml/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================================
+# Jupyter Notebooks
+# ============================================================================
+.ipynb_checkpoints
+
+# ============================================================================
+# Environment Variables & Secrets (NEVER commit these)
+# ============================================================================
+.env
+.yaml
+.secret
+*.local
+
+# ============================================================================
+# IDEs & Editors (Optional but highly recommended)
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
